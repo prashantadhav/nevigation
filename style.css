@@ -1,0 +1,41 @@
+.navigation{
+   
+   /* border: 2px solid red; */
+   margin-top: 200px;
+   margin-left: 50px;
+   margin-right: 50px;
+   height: 80px;
+   background: #0d0620;
+  
+}
+
+.elements{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   color: gray;
+}
+
+.elements button{
+    border: none;
+   background: transparent;
+   color: gray;
+
+}
+.elements button:hover{
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.elements img{
+    width: 20px;
+    height: 20px;
+    color: gray;
+    /* border: 2px solid red ; */
+}
+
